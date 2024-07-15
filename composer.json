@@ -1,15 +1,22 @@
 {
-    "name": "ad03/ksp_php_sdk",
-    "autoload": {
-        "psr-4": {
-            "Ad03\\KspPhpSdk\\": "src/"
-        }
-    },
+    "name": "andang-secure//ksp-php-sdk",
+    "description": "The composer plugin for EasyWeChat",
+    "type": "composer-plugin",
+    "license": "MIT",
     "authors": [
         {
-            "name": "lory"
+            "name": "青城",
+            "email": "lvpengdong@andang.cn"
         }
     ],
+    "require": {
+        "php": ">=7.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "AndangSecure\\": "src/"
+        }
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }
