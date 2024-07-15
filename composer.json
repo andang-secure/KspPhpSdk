@@ -1,6 +1,8 @@
 {
     "name": "andang-secure/ksp-php-sdk",
     "description": "andang-secure/ksp-php-sdk",
+    "type": "composer-plugin",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "AndangSecure\\KspPhpSdk\\": "src/"
