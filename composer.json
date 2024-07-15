@@ -1,6 +1,6 @@
 {
-    "name": "andang/KspPhpSdk",
-    "description": "andang/KspPhpSdk",
+    "name": "andang/ksp-php-sdk",
+    "description": "andang/ksp-php-sdk",
     "autoload": {
         "psr-4": {
             "Andang\\KspPhpSdk\\": "src/"
