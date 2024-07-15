@@ -1,15 +1,15 @@
 {
-    "name": "andang/ksp-php-sdk",
-    "description": "andang/ksp-php-sdk",
+    "name": "ad03/ksp_php_sdk",
     "autoload": {
         "psr-4": {
-            "Andang\\KspPhpSdk\\": "src/"
+            "Ad03\\KspPhpSdk\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "andang"
+            "name": "lory"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
