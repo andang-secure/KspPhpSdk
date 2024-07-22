@@ -1,11 +1,10 @@
 {
-    "name": "andang-secure/ksp-php-sdk",
-    "description": "andang-secure/ksp-php-sdk",
-    "type": "composer-plugin",
-    "license": "MIT",
+    "name": "andang-secure/sdk",
+    "description": "Andang Dkms Gcs SDK Library for PHP",
+    "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
-            "AndangSecure\\KspPhpSdk\\": "src/"
+            "AndangSecure\\": "src/"
         }
     },
     "authors": [
@@ -14,5 +13,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.9.0",
+        "alibabacloud/tea": "^3.2.1",
+        "alibabacloud/tea-utils": "^0.2.18",
+        "alibabacloud/darabonba-encode-util": "^0.0.2",
+        "alibabacloud/darabonba-signature-util": "^0.0.4"
+    }
 }
